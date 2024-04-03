@@ -1,10 +1,11 @@
 @charset"utf-8";
 
-body{
+body {
   margin: 0;
   padding: 0;
   background: #bbc;
 }
+
 .noto-serif jp-regular {
   font-family: "Noto Serif JP", serif;
   font-weight: 400;
@@ -12,20 +13,23 @@ body{
 }
 
 /* ヘッダーにスペイン聖堂ステンドグラスを貼り付け */
-#header{
+#header {
   background-image: url(../images/IMG_1015.JPG);
+  color: #fff;
+  text-align: center;
   /* background-repeat: repeat-x;
   /* background-size: contain;
-  /* background-position: center; */ */
+  /* background-position: center; */
   /* position: fixed; ヘッダーを固定する */
   /* top: 0; 上部から配置の基準位置を決める */
   /* left: 0; 左から配置の基準位置を決める */
   /* width: 100%; ヘッダーの横幅を指定する */
   /* height: 100px; ヘッダーの高さを指定する */
-  /* padding: 2px; ヘッダーの余白を指定する(上下左右) */ 
+  /* padding: 2px; ヘッダーの余白を指定する(上下左右) */
 }
+
 /* メインにあつろう画像を貼り付け */
-main{
+main {
   background-image: url(../images/IMG_0011.jpg);
   height: 100vh;
   background-repeat: no-repeat;
@@ -34,32 +38,42 @@ main{
 }
 
 /* ヘッダーｈ１テキスト */
-.atsu{
+.atsu {
   font-size: 140%;
   text-align: center;
   color: #fff;
 }
+
 .Header {
-  position: fixed; /* ヘッダーを固定する */
-  top: 0; /* 上部から配置の基準位置を決める */
-  left: 0; /* 左から配置の基準位置を決める */
-  width: 100%; /* ヘッダーの横幅を指定する */
-  height: 35px; /* ヘッダーの高さを指定する */
-  padding: 10px; /* ヘッダーの余白を指定する(上下左右) */
-  background-color: #31a9ee; /* ヘッダーの背景色を指定する */
-  color: #000000; /* フォントの色を指定する */
-  }
-  ul li  a{
-    font-size: 40px;
-    margin-right: auto;
-    padding-top: 80px;
-    color:#fff;
-    list-style: none;
+  position: fixed;
+  /* ヘッダーを固定する */
+  top: 0;
+  /* 上部から配置の基準位置を決める */
+  left: 0;
+  /* 左から配置の基準位置を決める */
+  width: 100%;
+  /* ヘッダーの横幅を指定する */
+  height: 150px;
+  /* ヘッダーの高さを指定する */
+  padding: 10px;
+  /* ヘッダーの余白を指定する(上下左右) */
+  background-color: #31a9ee;
+  /* ヘッダーの背景色を指定する */
+  color: #000000;
+  /* フォントの色を指定する */
+}
 
-  }
+ul li a {
+  font-size: 40px;
+  display: block;
+  text-align: center;
+  padding-top: 80px;
+  color: #fff;
+  list-style: none;
 
 
 
+}
 
 
 
@@ -190,9 +204,11 @@ main{
 
 
 
-header{
+
+
+
+header {
   background-image: url(../images/IMG_0011.jpg);
 }
-main{
 
-}
+main {}
